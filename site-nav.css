@@ -8,3 +8,15 @@ body:has(>.edu-topnav)>.app .side{top:56px;height:calc(100vh - 56px)}
 body:has(>.edu-topnav)>.app .top{top:56px}
 @media(max-width:620px){.edu-topnav{flex-wrap:wrap;gap:2px;padding:7px 10px;position:relative;z-index:100}.edu-topnav .edu-title{font-size:13px;padding:3px 6px}.edu-navlinks{width:100%;justify-content:flex-start;gap:3px}.edu-navlinks a{font-size:12px;padding:7px 9px}body:has(>.edu-topnav)>.app .top{top:0}body:has(>.edu-topnav)>.app .side{top:0;height:auto}}
 @media print{.edu-topnav{display:none!important}}
+
+/* Atalhos claros para o site completo, nas versões projetada e móvel */
+.edu-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:0 0 22px}
+.edu-shortcut{display:flex;flex-direction:column;gap:5px;text-decoration:none!important;min-width:0;border:1px solid #cbded5;border-radius:13px;background:#fff;padding:16px 17px;box-shadow:0 2px 12px rgba(0,0,0,.025);transition:border-color .15s,transform .15s}
+.edu-shortcut:hover,.edu-shortcut:focus-visible{border-color:#429777;transform:translateY(-2px)}
+.edu-shortcut.current{background:#eaf4ec;border-color:#9ac7b0}
+.edu-shortcut small{color:#568979;font:800 10px system-ui,Arial,sans-serif;letter-spacing:.12em}
+.edu-shortcut strong{color:#153f35;font:750 clamp(15px,1.6vw,20px) Georgia,serif;line-height:1.15}
+.edu-shortcut span{color:#668177;font:500 12px system-ui,Arial,sans-serif;line-height:1.35}
+.side a.edu-navext{display:flex;align-items:center;color:#315b4c;text-decoration:none;gap:10px}
+.side a.edu-navext:hover{background:#e7f3e9;color:#135c43}
+@media(max-width:720px){.edu-shortcuts{grid-template-columns:1fr;gap:7px;margin-bottom:14px}.edu-shortcut{padding:12px 14px;gap:3px}}
