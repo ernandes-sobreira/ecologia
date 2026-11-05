@@ -16,6 +16,10 @@ Plataforma acadêmica e gratuita para a aula de Ecologia (8 mestrandos), incluin
 - [Teia da Vida — **40 cartões, PDF completo**](https://pantanal-em-decisao-ecologia.onrender.com/materiais/teia-da-vida-40-cartoes.pdf)
 - [Teia da Vida — **seleção para 8 mestrandos, PDF**](https://pantanal-em-decisao-ecologia.onrender.com/materiais/teia-da-vida-8-cartoes.pdf)
 
+### Catálogo de experimentos para professores
+
+- [**Baixar o guia completo — 39 investigações e 42 páginas (PDF)**](https://pantanal-em-decisao-ecologia.onrender.com/materiais/catalogo-39-investigacoes-guia-professor.pdf)
+
 ## Organização da aula
 
 A aula inclui trajetória histórica da Ecologia e biografias de pensadores e pesquisadoras, conceitos e modelos de populações, comunidades e ecossistemas, serviços ecossistêmicos, ferramentas científicas, jogos e **catálogo de 39 investigações para professores de Biologia**.
