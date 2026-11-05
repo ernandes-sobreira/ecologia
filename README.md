@@ -1,29 +1,39 @@
-# Ecologia Viva · PROFBIO UFMT
+# Ecologia Viva — Aula de Ecologia · PROFBIO / UFMT
 
-Plataforma pública para aula de Ecologia com **8 mestrandos** e jogo científico interativo.
+Plataforma acadêmica e gratuita para a aula de Ecologia (8 mestrandos), incluindo **o livro interativo**, o jogo **Pantanal em Decisão** e os materiais imprimíveis da **Teia da Vida**.
 
-## Endereços
+## ABRA A AULA E AS DUAS ATIVIDADES
 
-- **Aula completa:** `/` — história da Ecologia, laboratórios, biodiversidade, serviços ecossistêmicos e catálogo de 39 investigações.
-- **Pantanal em Decisão:** `/jogo/` — simulação online colaborativa para **4 duplas**, cada uma representando um território da Bacia do Alto Paraguai.
-- **Teia da Vida:** `/cartoes/` — prévias e download de 40 cartões didáticos e de seleção inicial para 8 participantes.
+| Aula completa | Jogo digital | Cartões da Teia da Vida |
+|:---|:---|:---|
+| [**ABRIR AULA DE ECOLOGIA**](https://pantanal-em-decisao-ecologia.onrender.com/) | [**JOGAR PANTANAL EM DECISÃO**](https://pantanal-em-decisao-ecologia.onrender.com/jogo/) | [**VER E BAIXAR OS CARTÕES**](https://pantanal-em-decisao-ecologia.onrender.com/cartoes/) |
+| História, conceitos, laboratórios, biodiversidade, serviços ecossistêmicos e 39 investigações. | Jogo de decisões e negociação ambiental em quatro territórios, com **quatro duplas**. | **40 cartões / 5 folhas A4** e seleção inicial de **8 cartões**. |
 
-## Atividades e configuração
+> **Atenção:** esta página do GitHub mostra os **arquivos e o código**. Para ver as três abas do aplicativo, **clique em um dos links acima**. O site é publicado automaticamente a partir deste mesmo repositório.
 
-### Jogo online
+### Downloads diretos dos cartões
 
-O mediador abre a sala e compartilha o código. Uma dupla acessa o jogo por dispositivo, seleciona território, estuda os cinco papéis científicos distribuindo 2–3 funções entre seus dois integrantes e registra as decisões coletivamente. As quatro duplas negociam as medidas após uma crise socioecológica composta por expansão econômica, seca e incêndios.
+- [Teia da Vida — **40 cartões, PDF completo**](https://pantanal-em-decisao-ecologia.onrender.com/materiais/teia-da-vida-40-cartoes.pdf)
+- [Teia da Vida — **seleção para 8 mestrandos, PDF**](https://pantanal-em-decisao-ecologia.onrender.com/materiais/teia-da-vida-8-cartoes.pdf)
 
-**Nota:** A conexão entre navegadores depende de PeerJS / WebRTC e pode ser restringida pela rede. O modo local permite jogar em um único aparelho. A simulação utiliza índices e créditos fictícios, não dados ambientais medidos.
+## Organização da aula
 
-### Dinâmica presencial da Teia da Vida
+A aula inclui trajetória histórica da Ecologia e biografias de pensadores e pesquisadoras, conceitos e modelos de populações, comunidades e ecossistemas, serviços ecossistêmicos, ferramentas científicas, jogos e **catálogo de 39 investigações para professores de Biologia**.
 
-Comece com oito cartões. Em 25–30 min, forme conexões com barbante, perturbe o ecossistema e discuta mudanças nos serviços ecossistêmicos. Os demais cartões servem para uma segunda rodada.
+**Teia da Vida (presencial):** com os oito estudantes em círculo, distribua oito cartões que representem produtores, consumidores, decompositores, condições ambientais e sociedade; use barbante para construir relações justificadas. Na segunda rodada, substitua cartões e simule seca, incêndios e efeitos em serviços ecossistêmicos.
 
-## Publicação
+**Pantanal em Decisão (online):** uma dupla por território; o docente abre a sala e controla os eventos de expansão econômica, seca, incêndios e negociação. O jogo inclui um **modo local** caso a rede impeça a sincronização via WebRTC/PeerJS. Os números do modelo são apenas **índices didáticos hipotéticos**, não estimativas medidas no Pantanal.
 
-HTML/CSS/JavaScript estáticos (sem build). A hospedagem Render serve diretamente a raiz do repositório.
+## Arquivos e publicação
 
-## Direitos e fontes
+- `index.html` + `assets/` — aula completa, com navegação comum.
+- `jogo/index.html`, `game.js`, `styles.css` — jogo digital online.
+- `cartoes/index.html` — página com descrição, visualização e downloads.
+- `materiais/*.pdf` — 40 cartões e seleção de oito para impressão.
+- `site-nav.css` — barra de navegação entre as três abas.
 
-O jogo digital contém links para autoria/licença das fotografias citadas. Os cartões da Teia da Vida são ilustrações didáticas geradas digitalmente, não fotografias de espécimes. Os documentos de referência científica estão indicados nos respectivos materiais.
+**Hospedagem atual:** [Ecologia Viva — site online](https://pantanal-em-decisao-ecologia.onrender.com/), implantada automaticamente a partir da branch `main` deste repositório. O GitHub armazena o projeto; o Render apresenta a versão navegável.
+
+## Fontes e uso didático
+
+Os materiais distinguem informações científicas, ilustrações didáticas e simulações. O jogo apresenta créditos de imagens e fontes bibliográficas. Os cartões são ilustrações digitais, **não** fotografias de espécimes documentados. Material desenvolvido para formação de professores e uso educacional, sem serviços pagos necessários para os participantes.
