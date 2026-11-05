@@ -1,15 +1,15 @@
 # Ecologia Viva — Aula de Ecologia · PROFBIO / UFMT
 
-Plataforma acadêmica e gratuita para a aula de Ecologia (8 mestrandos), incluindo **o livro interativo**, o jogo **Pantanal em Decisão** e os materiais imprimíveis da **Teia da Vida**.
+Plataforma acadêmica e gratuita para a aula de Ecologia (8 mestrandos), incluindo **a aula interativa**, o jogo rápido **Micróbio em Ação**, a simulação **Pantanal em Decisão** e os materiais imprimíveis da **Teia da Vida**.
 
-## ABRA A AULA E AS DUAS ATIVIDADES
+## ACESSOS DA AULA E DOS JOGOS
 
-| Aula completa | Jogo digital | Cartões da Teia da Vida |
-|:---|:---|:---|
-| [**ABRIR AULA DE ECOLOGIA**](https://pantanal-em-decisao-ecologia.onrender.com/) | [**JOGAR PANTANAL EM DECISÃO**](https://pantanal-em-decisao-ecologia.onrender.com/jogo/) | [**VER E BAIXAR OS CARTÕES**](https://pantanal-em-decisao-ecologia.onrender.com/cartoes/) |
-| História, conceitos, laboratórios, biodiversidade, serviços ecossistêmicos e 39 investigações. | Jogo de decisões e negociação ambiental em quatro territórios, com **quatro duplas**. | **40 cartões / 5 folhas A4** e seleção inicial de **8 cartões**. |
+| Aula completa | Micróbio em Ação | Pantanal em Decisão | Teia da Vida |
+|:---|:---|:---|:---|
+| [**ABRIR A AULA**](https://pantanal-em-decisao-ecologia.onrender.com/) | [**JOGAR MICRÓBIO EM AÇÃO**](https://pantanal-em-decisao-ecologia.onrender.com/microbio/) | [**ABRIR PANTANAL EM DECISÃO**](https://pantanal-em-decisao-ecologia.onrender.com/jogo/) | [**BAIXAR OS CARTÕES**](https://pantanal-em-decisao-ecologia.onrender.com/cartoes/) |
+| Ecologia e 39 investigações. | Jogo de 90 s sobre assimilação, respiração e divisão celular. | Estratégia em quatro territórios e quatro duplas. | 40 cartões em PDF; use 8 por rodada. |
 
-> **Atenção:** esta página do GitHub mostra os **arquivos e o código**. Para ver as três abas do aplicativo, **clique em um dos links acima**. O site é publicado automaticamente a partir deste mesmo repositório.
+> **Atenção:** esta página do GitHub mostra os **arquivos e o código**. Para ver as quatro áreas do aplicativo, **clique em um dos links acima**. O site é publicado automaticamente a partir deste mesmo repositório.
 
 ### Downloads diretos dos cartões
 
@@ -22,6 +22,8 @@ Plataforma acadêmica e gratuita para a aula de Ecologia (8 mestrandos), incluin
 
 ## Organização da aula
 
+**Micróbio em Ação (jogo rápido):** controle uma bactéria heterotrófica aeróbia e capture carbono orgânico, amônio (NH₄⁺), fosfato (PO₄³⁻) e oxigênio. Compare água oxigenada com água de baixo oxigênio. O objetivo é distinguir matéria incorporada à biomassa da oxidação de substratos para produção de ATP. Simulação didática sem cadastro, com fontes científicas.
+
 A aula inclui trajetória histórica da Ecologia e biografias de pensadores e pesquisadoras, conceitos e modelos de populações, comunidades e ecossistemas, serviços ecossistêmicos, ferramentas científicas, jogos e **catálogo de 39 investigações para professores de Biologia**.
 
 **Teia da Vida (presencial):** com os oito estudantes em círculo, distribua oito cartões que representem produtores, consumidores, decompositores, condições ambientais e sociedade; use barbante para construir relações justificadas. Na segunda rodada, substitua cartões e simule seca, incêndios e efeitos em serviços ecossistêmicos.
@@ -31,10 +33,11 @@ A aula inclui trajetória histórica da Ecologia e biografias de pensadores e pe
 ## Arquivos e publicação
 
 - `index.html` + `assets/` — aula completa, com navegação comum.
-- `jogo/index.html`, `game.js`, `styles.css` — jogo digital online.
+- `microbio/index.html` — jogo rápido sobre metabolismo bacteriano.
+- `jogo/index.html`, `game.js`, `styles.css` — simulação territorial Pantanal em Decisão.
 - `cartoes/index.html` — página com descrição, visualização e downloads.
 - `materiais/*.pdf` — 40 cartões e seleção de oito para impressão.
-- `site-nav.css` — barra de navegação entre as três abas.
+- `site-nav.css` — barra de navegação entre as quatro áreas.
 
 **Hospedagem atual:** [Ecologia Viva — site online](https://pantanal-em-decisao-ecologia.onrender.com/), implantada automaticamente a partir da branch `main` deste repositório. O GitHub armazena o projeto; o Render apresenta a versão navegável.
 
