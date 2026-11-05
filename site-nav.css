@@ -1,0 +1,10 @@
+/* Navegação comum — Ecologia Viva e Pantanal em Decisão */
+.edu-topnav{position:sticky;top:0;z-index:9999;background:#0f332d;color:#f4fbf6;min-height:56px;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:7px clamp(12px,3vw,34px);border-bottom:2px solid #3c9277;box-shadow:0 4px 20px rgba(6,37,26,.16)}
+.edu-topnav *{box-sizing:border-box}.edu-topnav .edu-title{color:#eff9f4;font:700 15px Georgia,serif;letter-spacing:.015em;text-decoration:none;white-space:nowrap}
+.edu-navlinks{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.edu-navlinks a{color:#d5eee2;text-decoration:none;border:1px solid transparent;font:700 12px system-ui,Arial,sans-serif;padding:8px 11px;border-radius:8px;white-space:nowrap}
+.edu-navlinks a:hover{background:#205344;color:#fff}.edu-navlinks a[aria-current="page"]{background:#dff2e6;color:#144937}
+body:has(>.edu-topnav)>.app .side{top:56px;height:calc(100vh - 56px)}
+body:has(>.edu-topnav)>.app .top{top:56px}
+@media(max-width:620px){.edu-topnav{flex-wrap:wrap;gap:2px;padding:7px 10px;position:relative;z-index:100}.edu-topnav .edu-title{font-size:13px;padding:3px 6px}.edu-navlinks{width:100%;justify-content:flex-start;gap:3px}.edu-navlinks a{font-size:12px;padding:7px 9px}body:has(>.edu-topnav)>.app .top{top:0}body:has(>.edu-topnav)>.app .side{top:0;height:auto}}
+@media print{.edu-topnav{display:none!important}}
