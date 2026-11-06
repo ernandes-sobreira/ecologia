@@ -22,7 +22,7 @@ Plataforma acadêmica e gratuita para a aula de Ecologia (8 mestrandos), incluin
 
 ## Organização da aula
 
-**Micróbio em Ação (jogo rápido):** controle uma bactéria heterotrófica aeróbia e capture carbono orgânico, amônio (NH₄⁺), fosfato (PO₄³⁻) e oxigênio. Compare água oxigenada com água de baixo oxigênio. O objetivo é distinguir matéria incorporada à biomassa da oxidação de substratos para produção de ATP. Simulação didática sem cadastro, com fontes científicas.
+**Micróbio em Ação (jogo rápido):** controle uma bactéria heterotrófica aeróbia que assimila C, N e P, utiliza O₂ para respirar e libera CO₂. A missão de 90 segundos é realizar uma divisão, liberar 3 unidades de CO₂ e sobreviver ao estresse químico. Há água neutra (H₂O), exposição a Cu²⁺ em excesso e H₂O₂, e proteção celular com custo didático de ATP. Compare água oxigenada, pobre em O₂ e contaminada. Efeitos e limiares são simplificações educacionais, não dados medidos do Pantanal. Funciona sem cadastro.
 
 A aula inclui trajetória histórica da Ecologia e biografias de pensadores e pesquisadoras, conceitos e modelos de populações, comunidades e ecossistemas, serviços ecossistêmicos, ferramentas científicas, jogos e **catálogo de 39 investigações para professores de Biologia**.
 
